@@ -9,7 +9,7 @@ const AboutUs = () => {
             About KudiFI
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Learn more about our mission to empower Ghana's unbanked population with accessible crypto solutions.
+            Learn more about our mission to empower Africa's unbanked population with accessible crypto solutions.
           </p>
         </div>
 
@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div>
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Our Mission</h3>
             <p className="text-gray-600 mb-6">
-              At KudiFI, we're on a mission to empower Ghana's unbanked population with accessible, affordable, and secure financial tools. 
+              At KudiFI, we're on a mission to empower Africa's unbanked population with accessible, affordable, and secure financial tools. 
               By leveraging USSD technology and mobile money infrastructure, we're bridging the gap between traditional financial systems 
               and the world of cryptocurrency.
             </p>
@@ -88,7 +88,7 @@ const AboutUs = () => {
               </div>
               <p className="text-gray-600 text-center">
                 ApeCoin is governed by the ApeCoin DAO, a decentralized organization where holders can vote on proposals
-                that shape the future of the ecosystem. Through KudiFI, we're bringing these opportunities to Ghana and beyond.
+                that shape the future of the ecosystem. Through KudiFI, we're bringing these opportunities to Africa and beyond.
               </p>
             </div>
           </div>

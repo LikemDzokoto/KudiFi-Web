@@ -68,6 +68,9 @@ const HowItWorks = () => {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
+      <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-medium mb-4">
+            Simple Process
+          </div>
           <MotionHeading
             as="h2"
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-3"

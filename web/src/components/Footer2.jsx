@@ -54,8 +54,8 @@ const Footer2 = () => {
                 <MapPin className="w-8 h-8" />
               </div>
               <h3 className="font-bold text-lg mb-2">Location</h3>
-              <p className="text-gray-300 mb-3">Serving all of Ghana</p>
-              <span className="text-orange-400 font-medium">Accra • Kumasi • Tamale</span>
+              <p className="text-gray-300 mb-3">Serving all of Africa</p>
+              {/* <span className="text-orange-400 font-medium">Accra • Kumasi • Tamale</span> */}
             </div>
           </div>
 

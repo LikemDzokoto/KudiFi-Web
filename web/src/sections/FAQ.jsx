@@ -6,11 +6,11 @@ import FAQItem from '../components/FAQItem';
 const faqItems = [
   {
     question: "What is ApeCoin?",
-    answer: "ApeCoin is a digital currency that powers KudiFi. It can increase in value over time, and you can buy, send, and earn it using just your mobile phone."
+    answer: "ApeCoin is a digital currency that powers KudiFI. It can increase in value over time, and you can buy, send, and earn it using just your mobile phone."
   },
   {
     question: "Is my money safe?",
-    answer: "Yes. KudiFi uses mobile money security plus additional protections. Your wallet is PIN-protected, and we use encryption for all transactions with SMS confirmations."
+    answer: "Yes. KudiFI uses mobile money security plus additional protections. Your wallet is PIN-protected, and we use encryption for all transactions with SMS confirmations."
   },
   {
     question: "How do I cash out?",
@@ -22,14 +22,14 @@ const faqItems = [
   },
   {
     question: "Do I need internet or a smartphone?",
-    answer: "No. KudiFi works entirely through USSD on any phone with network coverage. No internet or smartphone needed."
+    answer: "No. KudiFI works entirely through USSD on any phone with network coverage. No internet or smartphone needed."
   },
   {
     question: "What are the fees?",
-    answer: "Just 1% on buy/sell transactions and 0.5% for sending to other KudiFi users—much lower than traditional money transfers."
+    answer: "Just 1% on buy/sell transactions and 0.5% for sending to other KudiFI users—much lower than traditional money transfers."
   },
   {
-    question: "Which mobile money services work with KudiFi?",
+    question: "Which mobile money services work with KudiFI?",
     answer: "Currently MTN Mobile Money (MoMo) and Vodafone Cash in Ghana, with more providers and countries coming soon."
   },
   {
