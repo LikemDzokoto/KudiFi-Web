@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MotionSection, MotionDiv, MotionHeading, MotionParagraph } from '../components/motion';
+import  InteractiveUSSDDemo from "../components/InteractiveMomoUssd";
 
 const steps = [
   {
@@ -138,7 +139,7 @@ const HowItWorks = () => {
           viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+          {/* <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
             <div className="flex flex-col md:flex-row">
               <div className="md:w-2/5 bg-gradient-to-br from-[#0E49A1] to-[#6F42C1] p-6 text-white flex flex-col justify-center">
                 <h3 className="text-xl font-bold mb-2">Simple USSD Commands</h3>
@@ -198,7 +199,9 @@ const HowItWorks = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          <InteractiveUSSDDemo/>
+
         </motion.div>
       </div>
     </MotionSection>
