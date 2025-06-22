@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Footer2 from "./components/Footer2";
 
 // Import sections
 import Hero from './sections/Hero';
@@ -90,11 +91,11 @@ function App() {
             <TrustSignals />
             <USSDInstructions />
             <FAQ />
-            <Contact />
+            {/* <Contact /> */}
             <AboutUs />
             
             {/* Sticky CTA at the bottom */}
-            <motion.div 
+            {/* <motion.div 
               id="dial-now" 
               className="fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-lg border-t border-gray-200 p-4 md:px-6 z-40"
               initial={{ y: 100 }}
@@ -115,7 +116,7 @@ function App() {
                   Learn How To Dial *123#
                 </motion.button>
               </div>
-            </motion.div>
+            </motion.div> */}
             
             {/* Scroll to top button */}
             <AnimatePresence>
@@ -136,7 +137,7 @@ function App() {
               )}
             </AnimatePresence>
           </main>
-          <Footer />
+          <Footer2 />
         </motion.div>
       )}
     </AnimatePresence>
