@@ -1,13 +1,26 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MotionDiv, MotionSection, MotionButton } from '../components/motion';
+import { Users, Wifi, Clock , Zap } from 'lucide-react';
+import AnimatedBackground from "../components/AnimatedBackground";
+
+
 
 const Hero = () => {
+
+  const stats = [
+    { icon: <Users className="w-8 h-8" />, value: "60%", label: "Mobile Money Users in Africa", countTo: 60 },
+    { icon: <Wifi className="w-8 h-8" />, value: "0", label: "Internet Required", countTo: 0 },
+    { icon: <Clock className="w-8 h-8" />, value: "24/7", label: "Earn Rewards" }
+  ];
+
   return (
     <MotionSection 
       id="hero" 
-      className="min-h-screen bg-gradient-to-br from-[#0E49A1] to-[#6F42C1] text-white pt-24 pb-12 overflow-hidden"
+      className="min-h-screen bg-gradient-to-br from-[#0E49A1] to-[#6F42C1] text-white pt-28 pb-6 overflow-hidden"
     >
+       <AnimatedBackground />
+      
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         {/* Text content */}
         <motion.div 
@@ -16,6 +29,13 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
+      <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 mb-8 border border-white/20">
+            <Zap className="w-4 h-4 text-yellow-400" />
+            <span className="text-sm font-medium">Powered by Apechain Web3 Technology</span>
+          </div>
+         
+
+
           <motion.h1 
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-['Montserrat'] leading-tight"
             initial={{ y: 50, opacity: 0 }}
