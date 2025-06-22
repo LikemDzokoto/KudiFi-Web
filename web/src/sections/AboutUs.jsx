@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-['Montserrat'] mb-4">
-            About KudiFI
+            About KudiFi
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Learn more about our mission to empower Ghana's unbanked population with accessible crypto solutions.
@@ -18,7 +18,7 @@ const AboutUs = () => {
           <div>
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Our Mission</h3>
             <p className="text-gray-600 mb-6">
-              At KudiFI, we're on a mission to empower Ghana's unbanked population with accessible, affordable, and secure financial tools. 
+              At KudiFi, we're on a mission to empower Ghana's unbanked population with accessible, affordable, and secure financial tools. 
               By leveraging USSD technology and mobile money infrastructure, we're bridging the gap between traditional financial systems 
               and the world of cryptocurrency.
             </p>
@@ -73,7 +73,7 @@ const AboutUs = () => {
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-3">Powered by ApeCoin</h3>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              KudiFI is powered by ApeCoin, a global community token that enables users to participate in a thriving Web3 ecosystem.
+              KudiFi is powered by ApeCoin, a global community token that enables users to participate in a thriving Web3 ecosystem.
               As an ApeCoin holder, you become part of a worldwide community with access to exclusive benefits and future opportunities.
             </p>
           </div>
@@ -88,7 +88,7 @@ const AboutUs = () => {
               </div>
               <p className="text-gray-600 text-center">
                 ApeCoin is governed by the ApeCoin DAO, a decentralized organization where holders can vote on proposals
-                that shape the future of the ecosystem. Through KudiFI, we're bringing these opportunities to Ghana and beyond.
+                that shape the future of the ecosystem. Through KudiFi, we're bringing these opportunities to Ghana and beyond.
               </p>
             </div>
           </div>

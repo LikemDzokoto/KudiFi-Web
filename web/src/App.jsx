@@ -3,8 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Footer2 from "./components/Footer2";
+import FloatingCTA from "./components/FloatingCTA";
 
-// Import sections
+
 import Hero from './sections/Hero';
 import HowItWorks from './sections/HowItWorks';
 import Benefits from './sections/Benefits';
@@ -15,14 +16,13 @@ import FAQ from './sections/FAQ';
 import Contact from './sections/Contact';
 import AboutUs from './sections/AboutUs';
 
-// Main app component
+
 function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
-  
-  // Add fonts to the document
+
   useEffect(() => {
-    // Add Inter and Montserrat fonts for Shadcn-inspired design
+    
     const interLink = document.createElement('link');
     interLink.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap';
     interLink.rel = 'stylesheet';
@@ -34,15 +34,15 @@ function App() {
     document.head.appendChild(interLink);
     document.head.appendChild(montserratLink);
     
-    // Add font family to body (Inter for Shadcn-inspired UI)
+  
     document.body.style.fontFamily = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
     
-    // Show page after fonts are loaded
+   
     setTimeout(() => {
       setIsLoaded(true);
     }, 100);
     
-    // Handle scroll-to-top button visibility
+
     const handleScroll = () => {
       if (window.scrollY > 500) {
         setShowScrollTop(true);
@@ -60,7 +60,7 @@ function App() {
     };
   }, []);
   
-  // Scroll to section handler
+  
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -68,7 +68,7 @@ function App() {
     }
   };
   
-  // Scroll to top handler
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -93,6 +93,7 @@ function App() {
             <FAQ />
             {/* <Contact /> */}
             <AboutUs />
+
             
             {/* Sticky CTA at the bottom */}
             {/* <motion.div 
@@ -138,6 +139,7 @@ function App() {
             </AnimatePresence>
           </main>
           <Footer2 />
+          <FloatingCTA/>
         </motion.div>
       )}
     </AnimatePresence>

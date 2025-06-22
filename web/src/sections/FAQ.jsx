@@ -6,11 +6,11 @@ import FAQItem from '../components/FAQItem';
 const faqItems = [
   {
     question: "What is ApeCoin?",
-    answer: "ApeCoin is a digital currency that powers KudiFI. It can increase in value over time, and you can buy, send, and earn it using just your mobile phone."
+    answer: "ApeCoin is a digital currency that powers KudiFi. It can increase in value over time, and you can buy, send, and earn it using just your mobile phone."
   },
   {
     question: "Is my money safe?",
-    answer: "Yes. KudiFI uses mobile money security plus additional protections. Your wallet is PIN-protected, and we use encryption for all transactions with SMS confirmations."
+    answer: "Yes. KudiFi uses mobile money security plus additional protections. Your wallet is PIN-protected, and we use encryption for all transactions with SMS confirmations."
   },
   {
     question: "How do I cash out?",
@@ -22,14 +22,14 @@ const faqItems = [
   },
   {
     question: "Do I need internet or a smartphone?",
-    answer: "No. KudiFI works entirely through USSD on any phone with network coverage. No internet or smartphone needed."
+    answer: "No. KudiFi works entirely through USSD on any phone with network coverage. No internet or smartphone needed."
   },
   {
     question: "What are the fees?",
-    answer: "Just 1% on buy/sell transactions and 0.5% for sending to other KudiFI users—much lower than traditional money transfers."
+    answer: "Just 1% on buy/sell transactions and 0.5% for sending to other KudiFi users—much lower than traditional money transfers."
   },
   {
-    question: "Which mobile money services work with KudiFI?",
+    question: "Which mobile money services work with KudiFi?",
     answer: "Currently MTN Mobile Money (MoMo) and Vodafone Cash in Ghana, with more providers and countries coming soon."
   },
   {
@@ -107,21 +107,7 @@ const FAQ = () => {
             <div className="absolute top-0 right-0 text-5xl">?</div>
           </div>
           
-          <p className="text-gray-700 font-medium">
-            Still have questions?
-          </p>
-          
-          <motion.a 
-            href="#contact" 
-            className="inline-flex items-center gap-2 mt-4 px-6 py-2 bg-gradient-to-r from-[#0E49A1] to-[#6F42C1] text-white font-medium rounded-md shadow-sm hover:shadow-md transition-all"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            <span>Get in touch</span>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-            </svg>
-          </motion.a>
+        
         </motion.div>
       </div>
     </MotionSection>
