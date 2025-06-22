@@ -1,4 +1,4 @@
-# Kudi-fi V1
+# Kudi-Fi Web V1
 
 ## Project Structure
 
